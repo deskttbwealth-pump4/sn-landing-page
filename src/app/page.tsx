@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import React from 'react';
 
 export default function LandingPage() {
@@ -17,7 +16,7 @@ export default function LandingPage() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           
           {/* Menu 1: SN Chart */}
-          <Link href="/chart" className="group">
+          <a href="https://chart.deskproduct.com" className="group">
             <div className="bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow border border-gray-200 overflow-hidden h-full flex flex-col">
               <div className="p-6 flex-grow">
                 <div className="w-12 h-12 bg-blue-100 text-blue-600 rounded-lg flex items-center justify-center mb-4">
@@ -39,7 +38,7 @@ export default function LandingPage() {
                 <span className="text-blue-600 text-sm font-medium group-hover:underline">เข้าสู่ระบบ &rarr;</span>
               </div>
             </div>
-          </Link>
+          </a>
 
           {/* Menu 2: IC Order */}
           <a href="https://order.deskproduct.com" className="group">
