@@ -16,7 +16,7 @@ export default function LandingPage() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           
           {/* Menu 1: SN Chart */}
-          <a href="https://chart.deskproduct.com" className="group">
+          <a href="https://quote.deskproduct.com" className="group">
             <div className="bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow border border-gray-200 overflow-hidden h-full flex flex-col">
               <div className="p-6 flex-grow">
                 <div className="w-12 h-12 bg-blue-100 text-blue-600 rounded-lg flex items-center justify-center mb-4">
@@ -28,7 +28,7 @@ export default function LandingPage() {
                   SN Chart
                 </h2>
                 <p className="text-gray-600 text-sm">
-                  ดูและวิเคราะห์ข้อมูลราคา กราฟสำหรับ Structured Note
+                  พิมพ์ชื่อหุ้นได้ทุกตลาด แล้วได้กราฟ Drawdown และ KI/KO ทันที ไม่ต้อง export ไฟล์
                 </p>
               </div>
               <div className="bg-gray-50 px-6 py-3 border-t border-gray-100 flex items-center justify-between">
@@ -92,8 +92,8 @@ export default function LandingPage() {
             </div>
           </a>
 
-          {/* Menu 4: Quote Chart */}
-          <a href="https://quote.deskproduct.com" className="group">
+          {/* Menu 4: SN Chart (PSIMS) */}
+          <a href="https://chart.deskproduct.com" className="group">
             <div className="bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow border border-gray-200 overflow-hidden h-full flex flex-col">
               <div className="p-6 flex-grow">
                 <div className="w-12 h-12 bg-teal-100 text-teal-600 rounded-lg flex items-center justify-center mb-4">
@@ -102,15 +102,15 @@ export default function LandingPage() {
                   </svg>
                 </div>
                 <h2 className="text-xl font-semibold text-gray-900 mb-2 group-hover:text-teal-600 transition-colors">
-                  Quote Chart
+                  SN Chart (PSIMS)
                 </h2>
                 <p className="text-gray-600 text-sm">
-                  พิมพ์ชื่อหุ้นแล้วได้กราฟ Drawdown และ KI/KO ทันที ไม่ต้องรอไฟล์ราคา
+                  ลากไฟล์ราคาจาก PSIMS เข้าไป — ตัวเลขสำหรับเด็ครายสัปดาห์และที่ยืนยันกับลูกค้า
                 </p>
               </div>
               <div className="bg-gray-50 px-6 py-3 border-t border-gray-100 flex items-center justify-between">
                 <span className="text-xs font-medium text-gray-600 bg-gray-200 px-2 py-1 rounded-full">
-                  ใช้ภายในทีม (Internal)
+                  ข้อมูลตามสัญญา (PSIMS)
                 </span>
                 <span className="text-teal-600 text-sm font-medium group-hover:underline">เข้าใช้งาน &rarr;</span>
               </div>
