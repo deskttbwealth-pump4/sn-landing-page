@@ -16,7 +16,7 @@ export default function LandingPage() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           
           {/* Menu 1: SN Chart */}
-          <a href="https://quote.deskproduct.com" className="group">
+          <a href="https://chart.deskproduct.com" className="group">
             <div className="bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow border border-gray-200 overflow-hidden h-full flex flex-col">
               <div className="p-6 flex-grow">
                 <div className="w-12 h-12 bg-blue-100 text-blue-600 rounded-lg flex items-center justify-center mb-4">
@@ -93,7 +93,7 @@ export default function LandingPage() {
           </a>
 
           {/* Menu 4: SN Chart (PSIMS) */}
-          <a href="https://chart.deskproduct.com" className="group">
+          <a href="https://psimsfile.deskproduct.com" className="group">
             <div className="bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow border border-gray-200 overflow-hidden h-full flex flex-col">
               <div className="p-6 flex-grow">
                 <div className="w-12 h-12 bg-teal-100 text-teal-600 rounded-lg flex items-center justify-center mb-4">
