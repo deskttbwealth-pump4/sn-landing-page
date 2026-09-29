@@ -32,8 +32,9 @@ export default function LandingPage() {
                 </p>
               </div>
               <div className="bg-gray-50 px-6 py-3 border-t border-gray-100 flex items-center justify-between">
-                <span className="text-xs font-medium text-green-600 bg-green-100 px-2 py-1 rounded-full">
-                  สาธารณะ (Public)
+                <span className="text-xs font-medium text-amber-600 bg-amber-100 px-2 py-1 rounded-full flex items-center">
+                  <svg className="w-3 h-3 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" /></svg>
+                  ล็อกสิทธิ์ (Login Required)
                 </span>
                 <span className="text-blue-600 text-sm font-medium group-hover:underline">เข้าสู่ระบบ &rarr;</span>
               </div>
