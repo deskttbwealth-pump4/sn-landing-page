@@ -3,7 +3,7 @@ import React from 'react';
 export default function LandingPage() {
   return (
     <div className="min-h-screen bg-gray-50 flex flex-col items-center justify-center p-6">
-      <div className="max-w-6xl w-full">
+      <div className="max-w-4xl w-full">
         <div className="text-center mb-12">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
             SN Web Application
@@ -13,7 +13,7 @@ export default function LandingPage() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           
           {/* Menu 1: SN Chart */}
           <a href="https://chart.deskproduct.com" className="group">
@@ -88,31 +88,6 @@ export default function LandingPage() {
                   ล็อกสิทธิ์ (Login Required)
                 </span>
                 <span className="text-red-600 text-sm font-medium group-hover:underline">เข้าใช้งาน &rarr;</span>
-              </div>
-            </div>
-          </a>
-
-          {/* Menu 4: SN Chart (PSIMS) */}
-          <a href="https://psimsfile.deskproduct.com" className="group">
-            <div className="bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow border border-gray-200 overflow-hidden h-full flex flex-col">
-              <div className="p-6 flex-grow">
-                <div className="w-12 h-12 bg-teal-100 text-teal-600 rounded-lg flex items-center justify-center mb-4">
-                  <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-4.35-4.35M11 19a8 8 0 100-16 8 8 0 000 16zm-2-8l2 2 3-4" />
-                  </svg>
-                </div>
-                <h2 className="text-xl font-semibold text-gray-900 mb-2 group-hover:text-teal-600 transition-colors">
-                  SN Chart (PSIMS)
-                </h2>
-                <p className="text-gray-600 text-sm">
-                  ลากไฟล์ราคาจาก PSIMS เข้าไป — ตัวเลขสำหรับเด็ครายสัปดาห์และที่ยืนยันกับลูกค้า
-                </p>
-              </div>
-              <div className="bg-gray-50 px-6 py-3 border-t border-gray-100 flex items-center justify-between">
-                <span className="text-xs font-medium text-gray-600 bg-gray-200 px-2 py-1 rounded-full">
-                  ข้อมูลตามสัญญา (PSIMS)
-                </span>
-                <span className="text-teal-600 text-sm font-medium group-hover:underline">เข้าใช้งาน &rarr;</span>
               </div>
             </div>
           </a>
