@@ -13,7 +13,7 @@ export default function LandingPage() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           
           {/* Menu 1: SN Chart */}
           <a href="https://chart.deskproduct.com" className="group">
@@ -89,6 +89,31 @@ export default function LandingPage() {
                   ล็อกสิทธิ์ (Login Required)
                 </span>
                 <span className="text-red-600 text-sm font-medium group-hover:underline">เข้าใช้งาน &rarr;</span>
+              </div>
+            </div>
+          </a>
+
+          {/* Menu 4: SN Simulation */}
+          <a href="https://payoff.deskproduct.com" className="group">
+            <div className="bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow border border-gray-200 overflow-hidden h-full flex flex-col">
+              <div className="p-6 flex-grow">
+                <div className="w-12 h-12 bg-emerald-100 text-emerald-600 rounded-lg flex items-center justify-center mb-4">
+                  <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
+                  </svg>
+                </div>
+                <h2 className="text-xl font-semibold text-gray-900 mb-2 group-hover:text-emerald-600 transition-colors">
+                  SN Simulation
+                </h2>
+                <p className="text-gray-600 text-sm">
+                  จำลองผลตอบแทน ณ วันครบกำหนดของ ELN, KIKO, Basket KIKO และ PPN ใส่ราคาปิดแล้วเห็นว่าลูกค้าได้รับอะไร
+                </p>
+              </div>
+              <div className="bg-gray-50 px-6 py-3 border-t border-gray-100 flex items-center justify-between">
+                <span className="text-xs font-medium text-green-600 bg-green-100 px-2 py-1 rounded-full">
+                  สาธารณะ (Public)
+                </span>
+                <span className="text-emerald-600 text-sm font-medium group-hover:underline">เข้าใช้งาน &rarr;</span>
               </div>
             </div>
           </a>
